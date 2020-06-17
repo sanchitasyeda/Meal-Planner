@@ -36,5 +36,26 @@ hr.divider {
 
 #navLink {
   font-family: 'Quicksand', sans-serif;
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #7CD;
+}
+#navLink:hover {
+  color: #02C8A7;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #F53;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+}
+.navbar-brand:hover {
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+.nav-item:hover {
+  background-color: #f9be02;
+  opacity: 0.8;
+  width: 20%;
 }
